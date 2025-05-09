@@ -1,0 +1,41 @@
+name: nlp_hf_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12
+
+  # GPU acceleration via CUDA toolkit
+  - pytorch
+  - torchvision
+  - torchaudio
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+
+  # NLP libraries
+  - nltk
+
+  # Data processing & visualization
+  - matplotlib
+  - seaborn
+  - tqdm
+  - joblib
+
+  # Hugging Face ecosystem
+  - transformers
+  - datasets
+  - evaluate
+  - accelerate
+  - timm
+
+  # Allow pip installs if needed
+  - pip
+
+  # Optional pip-only packages
+  - pip:
+    - contractions
