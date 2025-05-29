@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="C:\Users\bordo\anaconda3" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="nlp_hf_env" project-jdk-type="Python SDK" />
 </project>
